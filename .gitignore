@@ -11,3 +11,6 @@ exploration
 *.ipr
 *.iws
 .idea
+# IntelliJ
+out
+/out/
