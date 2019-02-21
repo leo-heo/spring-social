@@ -148,10 +148,10 @@ public class OAuth2AuthenticationService<S> extends AbstractSocialAuthentication
 		sb.append(scheme);
 		sb.append("://");
 		sb.append(host);
-		if (StringUtils.hasLength(port)){
-			sb.append(":");
-			sb.append(port);
-		}
+//		if (StringUtils.hasLength(port)){
+//			sb.append(":");
+//			sb.append(port);
+//		}
 		sb.append(request.getRequestURI());
 		return sb;
 	}
